@@ -1,0 +1,269 @@
+/*
+Theme Name: Child of simone
+Author: W D Dunnett
+Description: Child Theme of Simone originally for the RHS Club in London Website
+Version: 0.2
+Template: simone
+*/
+.header-background-image .title-box {
+    background: hsla(0, 0%, 0%, 0.1) none repeat scroll 0 0;
+}
+.no-header-image .site-branding {
+    padding:0;
+}
+.no-header-image .site-description {
+    display:none;
+}
+.title-box {
+    border: none; 
+    width: 100%;
+    max-width: 100%;
+}
+
+/* no sidebar template */
+.page-template-page-nosidebar .entry-header,
+.page-template-page-nosidebar .entry-content {
+    max-width:95rem;
+}
+.entry-header, .page-header, .entry-content, .entry-footer, .tag-links, .post-navigation, .comments-area, .paging-navigation {
+  max-width: inherit;
+}
+@media screen and (min-width: 1525px) {
+ .entry-header, .page-header, .entry-content, .entry-footer, .tag-links, .post-navigation, .comments-area, .paging-navigation {
+    max-width: 110rem;
+     margin-left: 2%;
+    }
+}
+aside.widget_sp_image {    
+  background: #fff;
+  text-align: center;
+} 
+
+ul{
+    list-style: none;
+}
+/* Green Buttons */
+.nextbtn a, .btn a {
+    display: block;
+    font-size: 0.1px;
+    height: 48px;
+    text-indent: -9999px;
+    width: 148px;
+}
+.btn a {
+    background: transparent url("images/JoinUs.gif") no-repeat scroll -12px -15px;
+}
+.btn a:hover {
+    background: transparent url("images/JoinUs.gif") no-repeat scroll -12px -62px;
+}
+.nextbtn a {
+    background: transparent url("images/ReadMore.gif") no-repeat scroll -12px -15px;
+}
+.nextbtn a:hover {
+    background: transparent url("images/ReadMore.gif") no-repeat scroll -12px -62px;
+}
+a.viewnextbtn {
+    background: transparent url("images/Next.png") no-repeat scroll -12px -15px;
+    display: block;
+    float: right;
+    font-size: 0.1px;
+    height: 48px;
+    padding: 0 10px 0 0;
+    text-indent: -9999px;
+    width: 148px;
+}
+a.viewnextbtn *:hover {
+    background: transparent url("images/Next.png") no-repeat scroll -12px -62px;
+}
+a.viewprevbtn {
+    background: transparent url("images/Prev.png") no-repeat scroll -12px -15px;
+    display: block;
+    float: left;
+    font-size: 0.1px;
+    height: 48px;
+    padding: 0 0 0 10px;
+    text-indent: -9999px;
+    width: 148px;
+}
+a.viewprevbtn:hover {
+    background: transparent url("images/Prev.png") no-repeat scroll -12px -62px;
+}
+a.viewbtn {
+    background: transparent url("images/ViewMore.png") no-repeat scroll -12px -15px;
+    display: block;
+    height: 47px;
+    text-indent: -9999px;
+    width: 160px;
+}
+a.viewbtn:hover {
+    background: transparent url("images/ViewMore.png") no-repeat scroll -12px -62px;
+}
+.entry-content a:hover {
+    text-decoration: none;
+    color: #0a6baa;
+}
+/* committee page temporary styling */
+.colHalf {  
+    line-height: 1em;
+    list-style: outside none none;
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 82%;
+}
+.colHalf ul {
+    font-size: 0.7em;
+    border: 1px double #000;
+    list-style: outside none none;
+    padding: 0;
+    margin: 0 0 1.5em 0;
+}
+div.pic li.biog {
+    color: #4a4a4a;
+    display: block;
+    height: 18em;
+    margin: 0 auto 0 0.3em;
+    padding: 0.5em 0.5em 0.25em;
+    text-align: left;
+    width: 60%;
+}
+div.pic li.member {
+    border-bottom: 1px solid;
+    font-weight: bold;
+   font-size: 136%;
+   line-height: 1.4em;
+    padding: 0.5em 1em .25em 0.8em;
+    text-align: left;
+    width: 78%;
+}
+div.pic li.duties {
+    font-size: 136%;
+    color: #4a4a4a;
+    margin: -1.4em auto 0 22%;
+    text-align: center;
+    width: 48%;
+}
+div.pic li.biog {
+    color: #4a4a4a;
+    font-size: 125%;
+    display: block;
+    height: 18em;
+    margin: 0 auto 0 0.3em;
+    padding: 0.5em 0.5em 2px;
+    text-align: left;
+    width: 75%;
+}
+div.pt span.tn {
+    margin-right: 5%;
+    margin-top: 5.9%;
+    width: 30%;
+}
+div.pic span.tn {
+    float: right;
+}
+span.tn img {
+    border-color: #333;
+    border-style: solid;
+    border-width: 1px 2px 2px 1px;
+    margin: 0 0 1em;
+}
+div.pt span.tn {
+    margin-right: .25em;
+    margin-top: 5.9%;
+    width: 20%;
+}
+div.thin img {
+    padding-left: 2.5em;
+}
+
+@media screen and (max-width: 814px) {
+    .main-navigation a {    
+        padding: 1.3em .5em;
+    }
+}
+@media screen and (max-width: 700px){
+    .main-navigation a {
+        padding: 1.3em .2em;
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .menu-toggle {
+        display: inline-block;
+        height: 3.9em;
+        padding: 0 1em;
+        font-weight: normal;
+        font-size: 14px;
+        font-size: 1.4rem;
+        text-decoration: none;
+        line-height: 3.75em;
+        color: white;
+    }
+    .main-navigation ul {
+        display: none;
+        padding-left: 0;
+    }
+    .main-navigation a {
+        font-size:14px;
+        font-size: 1.4rem; 
+   }
+}
+@media screen and (max-width: 650px) {
+    div.pic li.biog {      
+        height: 22em;    
+        width: 92%;
+    }
+    div.pic li.duties {    
+        width: 58%;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    div.pic li.member {    
+        height: 4em;
+    }
+    div.pic li.duties {    
+        margin: -1.4em auto 0 3%;
+        text-align: left;   
+    }
+}
+@media screen and (max-width: 543px) {
+       div.pic li.biog {            
+        height: 28em;        
+        } 
+}
+@media screen and (max-width: 485px) {
+       div.pic li.biog {          
+        height: 28em;
+        padding-top:2.5em;
+        } 
+        div.pic li.duties {
+            margin-top: -2.4em;          
+        }
+}
+@media screen and (max-width: 420px) {
+    div.pic li.member {    
+        height: 11em;
+        width: 94%;
+    }
+    .colHalf {
+        width: 100%;
+    }
+    .site-title a, .site-description {
+        font-size: 75%;
+    }
+}
+@media screen and (max-width: 320px) {    
+    div.pic li.member {
+        padding: 0.5em .25em .25em 0.25em;
+        text-align: left;
+        width: 100%;
+    }    
+}
+
+/* add logo */
+/* #page {
+    background: transparent url("../../uploads/2016/06/cropped-RHSCL-Logo-280-300x300.gif") no-repeat scroll 0 0;
+height:300px;
+width:300px;
+} */
